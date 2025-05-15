@@ -18,7 +18,7 @@ public class WorkingWithGenerics {
     }
 }
 
-// Generic counter class with a more descriptive name
+// Generic counter class
 class ElementCounter {
     public static <T> int countIf(Collection<T> c, UnaryPredicate<T> p) {
         int count = 0;
