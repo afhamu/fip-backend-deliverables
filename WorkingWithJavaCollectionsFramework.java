@@ -15,7 +15,7 @@ public class WorkingWithJavaCollectionsFramework {
         states.add("Kebbi");
         states.add("Borno");
 
-        // In this example, we remove "Borno" because it is not part of the Northwestern region
+        // In this example, I remove "Borno" because it is not part of the Northwestern region
         String target = "Borno";
 
         // Call the method to remove all occurrences of the target word from the list
